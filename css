@@ -1,0 +1,72 @@
+#nome{
+    
+    width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-left: 10%;
+ 
+}
+#email{
+  
+    width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-left: 10%;
+
+}
+#telefone{
+    margin-left: 38%;
+    width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-left: 10%;
+
+}
+#senha{
+    
+    width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 60px;
+ margin-left: 10%;
+  
+  
+  
+}
+#enviar{
+  
+    width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 60px;
+  cursor: pointer;
+  background-color: darkgreen;
+  margin-left: 10%;
+
+
+
+}
+
+#pai{
+
+    height: auto;  
+    border-radius: 20px;
+    width:30%; 
+    margin: auto;
+   /*background-color: dodgerblue;*/
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(19, 19, 19);
+    margin-top: 100px;
+}
