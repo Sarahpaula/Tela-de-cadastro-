@@ -15,16 +15,16 @@
     <h1>Cadastro</h1>
     
     <form action="/action_page.php">
-            <input id="nome" type="text" name="nome" placeholder="Nome ou Apelido"><br> 
+            <input id="nome" type="text" name="nome" placeholder="Nome ou Apelido" required ><br> 
 
-         <input  id="email" type="e-mail" name="email" placeholder="E-mail"><br>
-         <span class="focus-input100"></span>
+         <input  id="email" type="e-mail" name="email" placeholder="E-mail" required ><br>
+        
          
-         <input  id="telefone" type="tel" name="email" placeholder="Telefone"><br>
+         <input  id="telefone" type="number" max="10" name="email" placeholder="Telefone"required ><br>
       
-         <input  id="senha"type="password" name="email" placeholder="Senha"><br>
+         <input  id="senha"type="password" name="email" placeholder="Senha"required ><br>
         <br>
-            <input  id="enviar"type="submit" name="enviar" value="Enviar">  
+            <input  id="enviar"type="submit" name="enviar" value="Enviar"required >  
     </div>
   </div>
     </form>
